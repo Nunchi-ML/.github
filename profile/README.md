@@ -57,6 +57,8 @@ flowchart LR
   D --> E["📣 슬랙<br/>[작업 정리]"]
 ```
 
+처음이라면: [👋 팀원 안내](https://app.notion.com/p/df8fb1d2f0db45dbab41cdd49edb5358) · [🐙 GitHub 컨벤션](https://app.notion.com/p/c86986ef9f3a4a3caedabfc16b6ff0b7)
+
 ## 📅 일정 (가안)
 
 | 단계 | 기간 | 끝나는 기준 |
