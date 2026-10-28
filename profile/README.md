@@ -24,7 +24,8 @@
 | | |
 |---|---|
 | 📌 **주제** | 1일차(10/29)에 확정합니다 |
-| 🔮 **만드는 것** | 예측 모델 + 값을 넣으면 예측과 이유를 보여주는 시연 서비스 |
+| 🔮 **만드는 것** | 예측 모델 + 머신러닝 결과를 보여주는 웹사이트 (데이터 살펴보기 · 모델 비교 · 예측해 보기) |
+| 🎤 **발표** | 시연 없이 PPT에 모두 담아요 (웹사이트는 화면 캡처로) |
 | 📏 **원칙** | 모든 실험은 같은 검증 기준 · 같은 데이터셋 버전으로 잽니다 |
 
 ## 🗂️ 저장소
@@ -32,14 +33,14 @@
 | | 저장소 | 하는 일 | 담당 |
 |:---:|---|---|---|
 | 🧪 | [**Nunchi-ML_AI**](https://github.com/Nunchi-ML/Nunchi-ML_AI) | 데이터 정제 · EDA · 모델 실험 · 최종 파이프라인 | 데이터 A · B, AI A · B |
-| ⚙️ | [**Nunchi-ML_BE**](https://github.com/Nunchi-ML/Nunchi-ML_BE) | 예측 API | BE |
-| 🎨 | [**Nunchi-ML_FE**](https://github.com/Nunchi-ML/Nunchi-ML_FE) | 입력 · 결과 화면 | FE |
+| ⚙️ | [**Nunchi-ML_BE**](https://github.com/Nunchi-ML/Nunchi-ML_BE) | 모델 결과 · 예측 API | BE |
+| 🎨 | [**Nunchi-ML_FE**](https://github.com/Nunchi-ML/Nunchi-ML_FE) | 머신러닝 결과 웹사이트 | FE |
 
 ## 👥 팀
 
 <table>
   <tr>
-    <td align="center" width="150"><a href="https://github.com/FAITRUEE"><img src="https://github.com/FAITRUEE.png" width="96" alt="이성진"/><br/><sub><b>이성진</b></sub><br/><sub>PM · FE · BE</sub></a></td>
+    <td align="center" width="150"><a href="https://github.com/FAITRUEE"><img src="https://github.com/FAITRUEE.png" width="96" alt="이성진"/><br/><sub><b>이성진</b></sub><br/><sub>팀장</sub></a></td>
     <td align="center" width="150"><img src="https://github.com/ghost.png" width="96" alt="합류 예정"/><br/><sub><b>합류 예정</b></sub><br/><sub>데이터 엔지니어 A</sub></td>
     <td align="center" width="150"><img src="https://github.com/ghost.png" width="96" alt="합류 예정"/><br/><sub><b>합류 예정</b></sub><br/><sub>데이터 엔지니어 B</sub></td>
     <td align="center" width="150"><img src="https://github.com/ghost.png" width="96" alt="합류 예정"/><br/><sub><b>합류 예정</b></sub><br/><sub>AI 엔지니어 A</sub></td>
@@ -67,4 +68,4 @@ flowchart LR
 | 2️⃣ 기준 고정 | 10/30 | 평가 지표 · 분할 방식 · 기능 · API 입출력 확정 |
 | 3️⃣ 데이터 준비 · 분석 | 11/2 ~ 11/3 | 데이터셋 v1 + 베이스라인 점수 |
 | 4️⃣ 모델링 | 11/4 ~ 11/6 | 최종 모델 · 파이프라인 파일 |
-| 5️⃣ 검토 · 마무리 | 11/9 ~ 11/10 | 시연이 끊김 없이 돌아감 |
+| 5️⃣ 검토 · 마무리 | 11/9 ~ 11/10 | 보고서 · 발표 PPT 완성 (웹사이트 화면 포함) |
