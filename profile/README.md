@@ -6,7 +6,7 @@
 
 ![기간](https://img.shields.io/badge/%EA%B8%B0%EA%B0%84-2026.10.29%20~%2011.10-555555?style=flat-square) ![iM Digital Banker Academy](https://img.shields.io/badge/iM%20Digital%20Banker%20Academy-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-1E3A8A?style=flat-square) ![상태](https://img.shields.io/badge/%EC%83%81%ED%83%9C-%EA%B8%B0%ED%9A%8D%20%EC%A4%91-F2522E?style=flat-square)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square) ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square) ![Optuna](https://img.shields.io/badge/Optuna-2C5BB4?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square) ![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![three.js](https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 
 [![Notion](https://img.shields.io/badge/Notion-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%ED%99%88-000000?style=flat-square&logo=notion&logoColor=white)](https://app.notion.com/p/40554fa7e143815680c0cfb0ff414d78) [![Slack](https://img.shields.io/badge/Slack-%EB%88%88%EC%B9%98-4A154B?style=flat-square&logo=slack&logoColor=white)](https://w1793232260-5vc380374.slack.com) [![프로젝트 지도](https://img.shields.io/badge/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A7%80%EB%8F%84-%ED%95%9C%20%EC%9E%A5%EC%9C%BC%EB%A1%9C%20%EB%B3%B4%EA%B8%B0-FFD45E?style=flat-square)](https://nunchi-ml.github.io/)
 
@@ -39,9 +39,9 @@
 
 | | 저장소 | 하는 일 | 담당 |
 |:---:|---|---|---|
-| 🧪 | [**Nunchi-ML_AI**](https://github.com/Nunchi-ML/Nunchi-ML_AI) | 데이터 정제 · EDA · 모델 실험 · 최종 파이프라인 | 데이터 A · B, AI |
-| ⚙️ | [**Nunchi-ML_BE**](https://github.com/Nunchi-ML/Nunchi-ML_BE) | 모델 결과 · 예측 API | BE |
-| 🎨 | [**Nunchi-ML_FE**](https://github.com/Nunchi-ML/Nunchi-ML_FE) | 운전석 햇빛 시뮬레이터 · 머신러닝 결과 화면 | FE |
+| 🧪 | [**Nunchi-ML_AI**](https://github.com/Nunchi-ML/Nunchi-ML_AI) | 데이터 정제 · EDA · 모델 ① 구간 사고 예측 · 모델 ② 눈부심 분류 | 데이터 A · B, AI |
+| ⚙️ | [**Nunchi-ML_BE**](https://github.com/Nunchi-ML/Nunchi-ML_BE) | 눈부심 예측 API (FastAPI) | BE |
+| 🎨 | [**Nunchi-ML_FE**](https://github.com/Nunchi-ML/Nunchi-ML_FE) | 운전석 햇빛 시뮬레이터 (React · three.js) | FE |
 
 ## 👥 팀 「눈치」
 
