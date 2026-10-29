@@ -8,7 +8,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square) ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square) ![Optuna](https://img.shields.io/badge/Optuna-2C5BB4?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-[![Notion](https://img.shields.io/badge/Notion-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%ED%99%88-000000?style=flat-square&logo=notion&logoColor=white)](https://app.notion.com/p/40554fa7e143815680c0cfb0ff414d78) [![Slack](https://img.shields.io/badge/Slack-%EB%88%88%EC%B9%98-4A154B?style=flat-square&logo=slack&logoColor=white)](https://w1793232260-5vc380374.slack.com)
+[![Notion](https://img.shields.io/badge/Notion-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%ED%99%88-000000?style=flat-square&logo=notion&logoColor=white)](https://app.notion.com/p/40554fa7e143815680c0cfb0ff414d78) [![Slack](https://img.shields.io/badge/Slack-%EB%88%88%EC%B9%98-4A154B?style=flat-square&logo=slack&logoColor=white)](https://w1793232260-5vc380374.slack.com) [![프로젝트 지도](https://img.shields.io/badge/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A7%80%EB%8F%84-%ED%95%9C%20%EC%9E%A5%EC%9C%BC%EB%A1%9C%20%EB%B3%B4%EA%B8%B0-63E6BE?style=flat-square)](https://nunchi-ml.github.io/)
 
 </div>
 
@@ -27,6 +27,12 @@
 | 🔮 **만드는 것** | 예측 모델 + 머신러닝 결과를 보여주는 웹사이트 (데이터 살펴보기 · 모델 비교 · 예측해 보기) |
 | 🎤 **발표** | 시연 없이 PPT에 모두 담아요 (웹사이트는 화면 캡처로) |
 | 📏 **원칙** | 모든 실험은 같은 검증 기준 · 같은 데이터셋 버전으로 잽니다 |
+
+## 🗺️ 프로젝트 지도
+
+9일 일정 · 문서 6장 · 역할 · 같이 일하는 방식을 한 장으로 모았어요. 그림을 누르면 「내 역할만 보기」가 되는 지도가 열려요.
+
+<a href="https://nunchi-ml.github.io/"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/map.png" width="100%" alt="눈치 프로젝트 지도 — 9일 일정과 단계별 문서"/></a>
 
 ## 🗂️ 저장소
 
