@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/banner.png" width="100%" alt="Nunchi-ML"/>
+<img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/banner.png" width="100%" alt="눈치 Nunchi-ML"/>
 
 <br/>
 
