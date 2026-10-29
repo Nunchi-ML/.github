@@ -4,11 +4,11 @@
 
 <br/>
 
-![기간](https://img.shields.io/badge/%EA%B8%B0%EA%B0%84-2026.10.29%20~%2011.10-555555?style=flat-square) ![iM Digital Banker Academy](https://img.shields.io/badge/iM%20Digital%20Banker%20Academy-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-1E3A8A?style=flat-square) ![상태](https://img.shields.io/badge/%EC%83%81%ED%83%9C-%EC%84%B8%ED%8C%85%20%EC%A4%91-14B8A6?style=flat-square)
+![기간](https://img.shields.io/badge/%EA%B8%B0%EA%B0%84-2026.10.29%20~%2011.10-555555?style=flat-square) ![iM Digital Banker Academy](https://img.shields.io/badge/iM%20Digital%20Banker%20Academy-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-1E3A8A?style=flat-square) ![상태](https://img.shields.io/badge/%EC%83%81%ED%83%9C-%EA%B8%B0%ED%9A%8D%20%EC%A4%91-F2522E?style=flat-square)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square) ![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square) ![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square) ![Optuna](https://img.shields.io/badge/Optuna-2C5BB4?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-[![Notion](https://img.shields.io/badge/Notion-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%ED%99%88-000000?style=flat-square&logo=notion&logoColor=white)](https://app.notion.com/p/40554fa7e143815680c0cfb0ff414d78) [![Slack](https://img.shields.io/badge/Slack-%EB%88%88%EC%B9%98-4A154B?style=flat-square&logo=slack&logoColor=white)](https://w1793232260-5vc380374.slack.com) [![프로젝트 지도](https://img.shields.io/badge/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A7%80%EB%8F%84-%ED%95%9C%20%EC%9E%A5%EC%9C%BC%EB%A1%9C%20%EB%B3%B4%EA%B8%B0-63E6BE?style=flat-square)](https://nunchi-ml.github.io/)
+[![Notion](https://img.shields.io/badge/Notion-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%ED%99%88-000000?style=flat-square&logo=notion&logoColor=white)](https://app.notion.com/p/40554fa7e143815680c0cfb0ff414d78) [![Slack](https://img.shields.io/badge/Slack-%EB%88%88%EC%B9%98-4A154B?style=flat-square&logo=slack&logoColor=white)](https://w1793232260-5vc380374.slack.com) [![프로젝트 지도](https://img.shields.io/badge/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A7%80%EB%8F%84-%ED%95%9C%20%EC%9E%A5%EC%9C%BC%EB%A1%9C%20%EB%B3%B4%EA%B8%B0-FFD45E?style=flat-square)](https://nunchi-ml.github.io/)
 
 </div>
 
@@ -17,14 +17,15 @@
 ## 👀 Nunchi(눈치)는
 
 **눈치**는 말하지 않아도 상황을 먼저 알아채는 감각입니다.
-저희는 데이터에서 **다음에 일어날 일의 신호를 먼저 읽어 내는 모델**을 만들고, 그 모델을 직접 써 볼 수 있는 화면까지 만듭니다.
+저희는 해가 운전자의 눈을 가리기 전에 **어디서, 언제 눈부심 사고가 나기 쉬운지 먼저 알아채는 모델**을 만들고, 그 결과를 운전석에 앉은 듯 체험하는 시뮬레이터까지 만듭니다.
 
 ## 🎯 프로젝트
 
 | | |
 |---|---|
-| 📌 **주제** | 1일차(10/29)에 확정합니다 |
-| 🔮 **만드는 것** | 예측 모델 + 머신러닝 결과를 보여주는 웹사이트 (데이터 살펴보기 · 모델 비교 · 예측해 보기) |
+| 📌 **주제** | ☀️ 햇빛 눈부심 사고 예측 — 해가 낮게 떠 운전자 정면을 비추는 아침·저녁, 터널 출구의 백색 현상 |
+| 🛣️ **시범 구간** | 대구 달구벌대로(동서) · 신천대로(남북) |
+| 🔮 **만드는 것** | 모델 ① 도로 구간별 사고 예측 · 모델 ② 전방 화면 눈부심 분류 + 운전석 햇빛 시뮬레이터 |
 | 🎤 **발표** | 시연 없이 PPT에 모두 담아요 (웹사이트는 화면 캡처로) |
 | 📏 **원칙** | 모든 실험은 같은 검증 기준 · 같은 데이터셋 버전으로 잽니다 |
 
@@ -40,7 +41,7 @@
 |:---:|---|---|---|
 | 🧪 | [**Nunchi-ML_AI**](https://github.com/Nunchi-ML/Nunchi-ML_AI) | 데이터 정제 · EDA · 모델 실험 · 최종 파이프라인 | 데이터 A · B, AI |
 | ⚙️ | [**Nunchi-ML_BE**](https://github.com/Nunchi-ML/Nunchi-ML_BE) | 모델 결과 · 예측 API | BE |
-| 🎨 | [**Nunchi-ML_FE**](https://github.com/Nunchi-ML/Nunchi-ML_FE) | 머신러닝 결과 웹사이트 | FE |
+| 🎨 | [**Nunchi-ML_FE**](https://github.com/Nunchi-ML/Nunchi-ML_FE) | 운전석 햇빛 시뮬레이터 · 머신러닝 결과 화면 | FE |
 
 ## 👥 팀 「눈치」
 
