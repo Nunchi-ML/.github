@@ -41,9 +41,9 @@
 <table>
   <tr>
     <td align="center" width="150"><a href="https://github.com/FAITRUEE"><img src="https://github.com/FAITRUEE.png" width="96" alt="이성진"/><br/><sub><b>이성진</b></sub><br/><sub>팀장 · PM · FE · BE</sub></a></td>
-    <td align="center" width="150"><a href="https://github.com/jaehyuck5"><img src="https://github.com/jaehyuck5.png" width="96" alt="jaehyuck5"/><br/><sub><b>jaehyuck5</b></sub><br/><sub>역할 1일차 확정</sub></a></td>
-    <td align="center" width="150"><a href="https://github.com/kwonsuyoung0-rgb"><img src="https://github.com/kwonsuyoung0-rgb.png" width="96" alt="권수영"/><br/><sub><b>권수영</b></sub><br/><sub>역할 1일차 확정</sub></a></td>
-    <td align="center" width="150"><a href="https://github.com/pbsu0413-byte"><img src="https://github.com/pbsu0413-byte.png" width="96" alt="박범수"/><br/><sub><b>박범수</b></sub><br/><sub>역할 1일차 확정</sub></a></td>
+    <td align="center" width="150"><a href="https://github.com/jaehyuck5"><img src="https://github.com/jaehyuck5.png" width="96" alt="최재혁"/><br/><sub><b>최재혁</b></sub><br/><sub>데이터 엔지니어 A</sub></a></td>
+    <td align="center" width="150"><a href="https://github.com/kwonsuyoung0-rgb"><img src="https://github.com/kwonsuyoung0-rgb.png" width="96" alt="권수영"/><br/><sub><b>권수영</b></sub><br/><sub>데이터 엔지니어 B</sub></a></td>
+    <td align="center" width="150"><a href="https://github.com/pbsu0413-byte"><img src="https://github.com/pbsu0413-byte.png" width="96" alt="박범수"/><br/><sub><b>박범수</b></sub><br/><sub>AI 엔지니어</sub></a></td>
   </tr>
 </table>
 
