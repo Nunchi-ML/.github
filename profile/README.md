@@ -32,21 +32,22 @@
 
 | | 저장소 | 하는 일 | 담당 |
 |:---:|---|---|---|
-| 🧪 | [**Nunchi-ML_AI**](https://github.com/Nunchi-ML/Nunchi-ML_AI) | 데이터 정제 · EDA · 모델 실험 · 최종 파이프라인 | 데이터 A · B, AI A · B |
+| 🧪 | [**Nunchi-ML_AI**](https://github.com/Nunchi-ML/Nunchi-ML_AI) | 데이터 정제 · EDA · 모델 실험 · 최종 파이프라인 | 데이터 A · B, AI |
 | ⚙️ | [**Nunchi-ML_BE**](https://github.com/Nunchi-ML/Nunchi-ML_BE) | 모델 결과 · 예측 API | BE |
 | 🎨 | [**Nunchi-ML_FE**](https://github.com/Nunchi-ML/Nunchi-ML_FE) | 머신러닝 결과 웹사이트 | FE |
 
-## 👥 팀
+## 👥 팀 「눈치」
 
 <table>
   <tr>
     <td align="center" width="150"><a href="https://github.com/FAITRUEE"><img src="https://github.com/FAITRUEE.png" width="96" alt="이성진"/><br/><sub><b>이성진</b></sub><br/><sub>팀장</sub></a></td>
     <td align="center" width="150"><img src="https://github.com/ghost.png" width="96" alt="합류 예정"/><br/><sub><b>합류 예정</b></sub><br/><sub>데이터 엔지니어 A</sub></td>
     <td align="center" width="150"><img src="https://github.com/ghost.png" width="96" alt="합류 예정"/><br/><sub><b>합류 예정</b></sub><br/><sub>데이터 엔지니어 B</sub></td>
-    <td align="center" width="150"><img src="https://github.com/ghost.png" width="96" alt="합류 예정"/><br/><sub><b>합류 예정</b></sub><br/><sub>AI 엔지니어 A</sub></td>
-    <td align="center" width="150"><img src="https://github.com/ghost.png" width="96" alt="합류 예정"/><br/><sub><b>합류 예정</b></sub><br/><sub>AI 엔지니어 B</sub></td>
+    <td align="center" width="150"><img src="https://github.com/ghost.png" width="96" alt="합류 예정"/><br/><sub><b>합류 예정</b></sub><br/><sub>AI 엔지니어</sub></td>
   </tr>
 </table>
+
+> 데이터셋 v1이 나오면 데이터 엔지니어도 모델 실험에 합류해요. 역할은 시작점이고, 단계마다 모이는 곳이 바뀝니다.
 
 ## 🔁 일하는 방식
 
