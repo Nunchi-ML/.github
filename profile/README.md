@@ -25,22 +25,13 @@
 
 ## 🧠 두 예측 모델
 
-<table>
-  <tr>
-    <th width="50%">☀️ 태양광 눈부심 분류</th>
-    <th width="50%">🚇 터널 암순응 분류</th>
-  </tr>
-  <tr>
-    <td>사진 + 해 위치 · 날씨로<br/>정상 · 눈부심 · 심함을 판정</td>
-    <td>터널 입구 사진으로<br/>안팎의 밝기 차이(하 · 중 · 상)를 판정</td>
-  </tr>
-  <tr>
-    <td>두 단계 로지스틱 회귀<br/><b>평균 F1 0.640</b></td>
-    <td>Ridge + 두 단계 로지스틱 회귀<br/><b>처음 보는 카메라 F1 0.844</b></td>
-  </tr>
-</table>
+**☀️ 태양광 눈부심 분류** — 두 단계 로지스틱 회귀 · 평균 F1 **0.640**<br/>
+<sub>전방 사진과 해 위치 · 날씨로 정상 · 눈부심 · 심함을 판정합니다.</sub>
 
-두 결과는 같은 사진인지 확인하는 통합 로직으로 묶어, 시뮬레이터에서 출발 전 · 주행 중 안내로 보여 줍니다.
+**🚇 터널 암순응 분류** — Ridge + 두 단계 로지스틱 회귀 · 처음 보는 카메라 F1 **0.844**<br/>
+<sub>터널 입구 사진으로 안팎의 밝기 차이를 하 · 중 · 상으로 판정합니다.</sub>
+
+두 결과는 통합 안내로 묶어, 시뮬레이터에서 출발 전 · 주행 중 안내로 보여 줍니다.
 
 ## 🚗 눈치 드라이브
 
@@ -67,8 +58,8 @@
 
 <table>
   <tr>
-    <td align="center" width="150"><a href="https://github.com/FAITRUEE"><img src="https://github.com/FAITRUEE.png" width="96" alt="이성진"/><br/><sub><b>이성진</b></sub><br/><sub>팀장 · 눈부심 모델 · 시뮬레이터</sub></a></td>
-    <td align="center" width="150"><a href="https://github.com/jaehyuck5"><img src="https://github.com/jaehyuck5.png" width="96" alt="최재혁"/><br/><sub><b>최재혁</b></sub><br/><sub>터널 암순응 모델</sub></a></td>
+    <td align="center" width="150"><a href="https://github.com/FAITRUEE"><img src="https://github.com/FAITRUEE.png" width="96" alt="이성진"/><br/><sub><b>이성진</b></sub><br/><sub>팀장 · 눈부심 · 시뮬레이터</sub></a></td>
+    <td align="center" width="150"><a href="https://github.com/jaehyuck-choi"><img src="https://github.com/jaehyuck-choi.png" width="96" alt="최재혁"/><br/><sub><b>최재혁</b></sub><br/><sub>터널 암순응 모델</sub></a></td>
     <td align="center" width="150"><a href="https://github.com/kwonsuyoung0-rgb"><img src="https://github.com/kwonsuyoung0-rgb.png" width="96" alt="권수영"/><br/><sub><b>권수영</b></sub><br/><sub>기획 · 문서 · 보고서</sub></a></td>
     <td align="center" width="150"><a href="https://github.com/pbsu0413-byte"><img src="https://github.com/pbsu0413-byte.png" width="96" alt="박범수"/><br/><sub><b>박범수</b></sub><br/><sub>통합 주행 안내</sub></a></td>
   </tr>
