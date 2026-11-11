@@ -8,120 +8,85 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-2E7D32?style=flat-square) ![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![three.js](https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 
-[![Notion](https://img.shields.io/badge/Notion-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%ED%99%88-000000?style=flat-square&logo=notion&logoColor=white)](https://app.notion.com/p/40554fa7e143815680c0cfb0ff414d78) [![Slack](https://img.shields.io/badge/Slack-%EB%88%88%EC%B9%98-4A154B?style=flat-square&logo=slack&logoColor=white)](https://w1793232260-5vc380374.slack.com) [![시뮬레이터](https://img.shields.io/badge/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0-%EC%B2%B4%ED%97%98%ED%95%98%EA%B8%B0-FF8A20?style=flat-square)](https://nunchi-drive.vercel.app) [![프로젝트 지도](https://img.shields.io/badge/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A7%80%EB%8F%84-%ED%95%9C%20%EC%9E%A5%EC%9C%BC%EB%A1%9C%20%EB%B3%B4%EA%B8%B0-FFD45E?style=flat-square)](https://nunchi-ml.github.io/)
+[![시뮬레이터](https://img.shields.io/badge/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0-%EC%B2%B4%ED%97%98%ED%95%98%EA%B8%B0-FF8A20?style=flat-square)](https://nunchi-drive.vercel.app) [![발표 자료](https://img.shields.io/badge/%EB%B0%9C%ED%91%9C%20%EC%9E%90%EB%A3%8C-PDF-1E3A8A?style=flat-square)](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_presentation.pdf) [![결과 보고서](https://img.shields.io/badge/%EA%B2%B0%EA%B3%BC%20%EB%B3%B4%EA%B3%A0%EC%84%9C-PDF-1E3A8A?style=flat-square)](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_report.pdf) [![시연 영상](https://img.shields.io/badge/%EC%8B%9C%EC%97%B0%20%EC%98%81%EC%83%81-MP4-C92A2A?style=flat-square)](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_demo.mp4) [![Notion](https://img.shields.io/badge/Notion-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%ED%99%88-000000?style=flat-square&logo=notion&logoColor=white)](https://app.notion.com/p/40554fa7e143815680c0cfb0ff414d78)
 
 </div>
 
 ---
 
-## 👀 Nunchi(눈치)는
+## 👀 눈치는
 
-**눈치**는 말하지 않아도 상황을 먼저 알아채는 감각입니다.
-해가 정면에 낮게 들어오거나 밝은 도로에서 터널로 들어갈 때, 같은 길도 앞이 잘 안 보이는 순간이 생깁니다.
-저희는 이런 **빛의 변화를 데이터로 먼저 알아채고**, 눈부심이 적은 길을 고르거나 피하기 어려운 구간에 미리 대비할 수 있게 안내합니다.
-그 결과를 운전석에 앉은 듯 체험하는 **운전 시뮬레이터**까지 만들었습니다.
+해가 정면에 낮게 들어오거나 밝은 도로에서 터널로 들어갈 때, 같은 길도 순간 앞이 잘 안 보입니다.<br/>
+**눈치**는 이런 빛의 변화를 데이터로 먼저 알아채고, 그 구간에 들어가기 전에 미리 알려 주는 주행 안내입니다.
 
-## 🎯 프로젝트
+<img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_glare.jpg" width="100%" alt="눈치 드라이브 — 정면 눈부심 안내"/>
 
-| | |
-|---|---|
-| 📌 **주제** | ☀️ 빛 변화에 대비하는 주행 안내 — 정면 태양광 눈부심 · 터널 입출구 밝기 전환 |
-| 🛣️ **시범 구간** | 대구 달구벌대로(동서) · 신천대로(남북) |
-| 🔮 **만든 것** | 예측 모델 2개 + 두 결과를 잇는 통합 안내 + 운전 시뮬레이터 「눈치 드라이브」 |
-| 🎤 **발표** | 2026.11 최종 발표 완료 · 보고서 · 발표 PPT · 시연 영상 · 시뮬레이터 체험(QR) |
-| 📏 **원칙** | 같은 데이터 · 같은 정답 · 같은 분할에서 비교하고, 규칙에도 같은 기회를 줍니다 |
+<p align="center"><sub>운전 시뮬레이터 「눈치 드라이브」 · 대구 달구벌대로 · 신천대로 · <a href="https://nunchi-drive.vercel.app">직접 체험하기 →</a></sub></p>
 
-## 🧠 모델
-
-| 모델 | 하는 일 | 상태 |
-|---|---|---|
-| ☀️ **태양광 눈부심 분류** | 전방 사진 + 해 위치 · 날씨로 눈부심을 정상 · 눈부심 · 심함 3등급 판정 | ✅ 두 단계 로지스틱 회귀 · 평균 F1 0.640 · API 배포 |
-| 🚇 **터널 암순응 분류** | 터널 · 지하차도 입구 사진으로 바깥 밝기와 입구 위험도(하 · 중 · 상) 추정 | ✅ Ridge + 두 단계 로지스틱 · 처음 보는 카메라 입구 66장 F1 0.844 |
-| 🧭 **통합 주행 안내** | 두 모델의 결과를 위치 · 시각 · 진행 방향에 맞춰 지도 · 경고로 연결 | ✅ 같은 사진 검수 로직 · 시뮬레이터 체험 (실제 도로 연동은 후속) |
-
-## 🏁 결과
-
-| | |
-|---|---|
-| ☀️ **눈부심** | 71개 실험 · 모델 5번 개선 → 두 단계 로지스틱 회귀. 다른 출처 공공 사진(AI Hub)에서 정상 사진을 가려낸 비율(특이도) 가장 좋은 규칙 23% → 모델 72% |
-| 🚇 **터널** | 밝기를 먼저 맞히던 LightGBM(F1 0.526) → 등급을 바로 가르는 두 단계 로지스틱(F1 0.844) · 12월 사진 22장 모두 맞힘 |
-| 🚗 **시뮬레이터** | 대구 달구벌대로 · 신천대로 3D 재현 · 출발 전 경로 판정 · 주행 중 사전 경고 · 휴대폰 카메라 즉시 판정 |
-| ⚠️ **남은 과제** | 다른 계절 · 카메라 검증 · 두 모델의 실제 입구 사진 공동 성능 · 실제 운전에서의 효과 |
-
-## 📦 최종 결과물
-
-| | 파일 |
-|:---:|---|
-| 📊 | [발표 자료 PDF](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_presentation.pdf) |
-| 📝 | [결과 보고서 PDF](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_report.pdf) |
-| 🗂️ | [프로젝트 기획서 PDF](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_proposal.pdf) |
-| 🎬 | [시연 영상 MP4](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_demo.mp4) |
-
-<sub>모두 [Release v1.0-final](https://github.com/Nunchi-ML/.github/releases/tag/v1.0-final)에 있습니다. 공개용 발표 자료에서는 저작권이 있는 뉴스·방송 캡처와 지도 앱 화면 3장을 뺐습니다.</sub>
-
-## 📸 발표 한눈에
+## 🧠 두 예측 모델
 
 <table>
   <tr>
-    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/glare_two_stage.jpg" alt="눈부심 두 단계 모델"/><br/><sub>☀️ 눈부심이 있나? → 심한가? 두 번 나눠 묻는 모델</sub></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/glare_result.jpg" alt="자료를 더 줬을 때 모델과 규칙 비교"/><br/><sub>☀️ 같은 자료를 더 주자 모델은 좋아지고 규칙은 나빠짐</sub></td>
+    <th width="50%">☀️ 태양광 눈부심 분류</th>
+    <th width="50%">🚇 터널 암순응 분류</th>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/tunnel_structure.jpg" alt="터널 모델 구조 변경"/><br/><sub>🚇 밝기를 먼저 맞히던 구조 → 등급을 바로 가르는 구조 (F1 0.526 → 0.844)</sub></td>
-    <td><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/tunnel_warning.jpg" alt="지하차도 입구 경고"/><br/><sub>🚗 시뮬레이터 · 지하차도 입구 앞 암순응 경고</sub></td>
+    <td>사진 + 해 위치 · 날씨로<br/>정상 · 눈부심 · 심함을 판정</td>
+    <td>터널 입구 사진으로<br/>안팎의 밝기 차이(하 · 중 · 상)를 판정</td>
   </tr>
   <tr>
-    <td colspan="2"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/three_step_warning.jpg" alt="경고 세 단계"/><br/><sub>🧭 출발 전 · 10~14초 전 · 그 순간, 세 번에 나눠 대비할 시간을 줍니다</sub></td>
+    <td>두 단계 로지스틱 회귀<br/><b>평균 F1 0.640</b></td>
+    <td>Ridge + 두 단계 로지스틱 회귀<br/><b>처음 보는 카메라 F1 0.844</b></td>
   </tr>
 </table>
+
+두 결과는 같은 사진인지 확인하는 통합 로직으로 묶어, 시뮬레이터에서 출발 전 · 주행 중 안내로 보여 줍니다.
 
 ## 🚗 눈치 드라이브
 
-운전석에 앉은 듯 대구 달구벌대로 · 신천대로를 달리며 안내를 받아 보는 시뮬레이터입니다. [직접 체험하기 →](https://nunchi-drive.vercel.app)
-
 <table>
   <tr>
-    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_route.jpg" alt="🗺️ 출발 전 · 코스를 미리 판정해 눈부신 구간을 보여 줍니다"/><br/><sub>🗺️ 출발 전 · 코스를 미리 판정해 눈부신 구간을 보여 줍니다</sub></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_glare.jpg" alt="☀️ 주행 중 · 정면 눈부심을 판정하고 감속을 안내합니다"/><br/><sub>☀️ 주행 중 · 정면 눈부심을 판정하고 감속을 안내합니다</sub></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_route.jpg" alt="출발 전 경로 판정"/><br/><sub>출발 전 · 코스 미리 판정</sub></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_sign.jpg" alt="도로 전광판"/><br/><sub>도로 전광판 · 앞 구간 안내</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_sign.jpg" alt="🪧 도로 전광판 · 앞 구간 눈부심을 미리 알립니다"/><br/><sub>🪧 도로 전광판 · 앞 구간 눈부심을 미리 알립니다</sub></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_camera.jpg" alt="📱 카메라 앱 · 지금 사진을 보내 바로 판정합니다"/><br/><sub>📱 카메라 앱 · 지금 사진을 보내 바로 판정합니다</sub></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_tunnel.jpg" alt="🚇 지하차도 · 입구와 출구의 밝기 변화를 체험합니다"/><br/><sub>🚇 지하차도 · 입구와 출구의 밝기 변화를 체험합니다</sub></td>
-    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_visor.jpg" alt="🕶️ 스마트 선바이저 · 해가 들어오는 칸만 가립니다"/><br/><sub>🕶️ 스마트 선바이저 · 해가 들어오는 칸만 가립니다</sub></td>
+    <td><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_camera.jpg" alt="카메라 앱 판정"/><br/><sub>카메라 앱 · 바로 판정</sub></td>
+    <td><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_tunnel.jpg" alt="지하차도 밝기 변화"/><br/><sub>지하차도 · 밝기 변화 체험</sub></td>
   </tr>
 </table>
 
-## 🗺️ 프로젝트 지도
-
-9일 일정 · 문서 6장 · 역할 · 같이 일한 방식을 한 장으로 모았어요. 그림을 누르면 「내 역할만 보기」가 되는 지도가 열려요.
-
-<a href="https://nunchi-ml.github.io/"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/map.png" width="100%" alt="눈치 프로젝트 지도 — 9일 일정과 단계별 문서"/></a>
-
 ## 🗂️ 저장소
 
-| | 저장소 | 하는 일 |
-|:---:|---|---|
-| 🧪 | [**Nunchi-ML_AI**](https://github.com/Nunchi-ML/Nunchi-ML_AI) | 데이터 정제 · 실험 · 두 예측 모델과 통합 검수의 학습 · 추론 묶음 |
-| ⚙️ | [**Nunchi-ML_BE**](https://github.com/Nunchi-ML/Nunchi-ML_BE) | 눈부심 판정 API (FastAPI · Render) · [Swagger](https://nunchi-glare-api.onrender.com/docs) |
-| 🎨 | [**Nunchi-ML_FE**](https://github.com/Nunchi-ML/Nunchi-ML_FE) | 운전 시뮬레이터 「눈치 드라이브」 (React · three.js · Vercel) · [체험하기](https://nunchi-drive.vercel.app) |
+| 저장소 | 내용 |
+|---|---|
+| 🧪 [Nunchi-ML_AI](https://github.com/Nunchi-ML/Nunchi-ML_AI) | 데이터 정제 · 실험 · 모델 학습과 추론 |
+| ⚙️ [Nunchi-ML_BE](https://github.com/Nunchi-ML/Nunchi-ML_BE) | 눈부심 판정 API (FastAPI · Render) |
+| 🎨 [Nunchi-ML_FE](https://github.com/Nunchi-ML/Nunchi-ML_FE) | 시뮬레이터 「눈치 드라이브」 (React · three.js) |
 
 ## 👥 팀 「눈치」
 
 <table>
   <tr>
-    <td align="center" width="150"><a href="https://github.com/FAITRUEE"><img src="https://github.com/FAITRUEE.png" width="96" alt="이성진"/><br/><sub><b>이성진</b></sub><br/><sub>팀장 · 태양광 눈부심 분류<br/>시뮬레이터(FE · BE)</sub></a></td>
-    <td align="center" width="150"><a href="https://github.com/jaehyuck5"><img src="https://github.com/jaehyuck5.png" width="96" alt="최재혁"/><br/><sub><b>최재혁</b></sub><br/><sub>터널 암순응 분류 모델</sub></a></td>
+    <td align="center" width="150"><a href="https://github.com/FAITRUEE"><img src="https://github.com/FAITRUEE.png" width="96" alt="이성진"/><br/><sub><b>이성진</b></sub><br/><sub>팀장 · 눈부심 모델 · 시뮬레이터</sub></a></td>
+    <td align="center" width="150"><a href="https://github.com/jaehyuck5"><img src="https://github.com/jaehyuck5.png" width="96" alt="최재혁"/><br/><sub><b>최재혁</b></sub><br/><sub>터널 암순응 모델</sub></a></td>
     <td align="center" width="150"><a href="https://github.com/kwonsuyoung0-rgb"><img src="https://github.com/kwonsuyoung0-rgb.png" width="96" alt="권수영"/><br/><sub><b>권수영</b></sub><br/><sub>기획 · 문서 · 보고서</sub></a></td>
-    <td align="center" width="150"><a href="https://github.com/pbsu0413-byte"><img src="https://github.com/pbsu0413-byte.png" width="96" alt="박범수"/><br/><sub><b>박범수</b></sub><br/><sub>통합 주행 안내 모델</sub></a></td>
+    <td align="center" width="150"><a href="https://github.com/pbsu0413-byte"><img src="https://github.com/pbsu0413-byte.png" width="96" alt="박범수"/><br/><sub><b>박범수</b></sub><br/><sub>통합 주행 안내</sub></a></td>
   </tr>
 </table>
 
-> 처음에는 PM · FE · BE / 데이터 A · B / AI로 나눠 시작했고, 5일차부터 모두 모델 실험에 합류해 모델별로 맡았어요.
 
-## 🔁 일하는 방식
+<details>
+<summary><b>📋 프로젝트 기록</b> — 일정 · 일하는 방식 · 프로젝트 지도</summary>
+
+<br/>
+
+| 단계 | 기간 | 끝나는 기준 | 상태 |
+|---|---|---|:---:|
+| 1️⃣ 주제 · 문제 정의 | 10/29 | 타깃과 사용 장면이 한 문장으로 | ✅ |
+| 2️⃣ 기준 고정 | 10/30 | 평가 지표 · 분할 방식 · 기능 · API 입출력 확정 | ✅ |
+| 3️⃣ 데이터 준비 · 분석 | 11/2 ~ 11/3 | 데이터 명세서 + 베이스라인 점수 | ✅ |
+| 4️⃣ 모델링 | 11/4 ~ 11/6 | 모델별 대표 모델 · 추론 묶음 | ✅ |
+| 5️⃣ 검토 · 마무리 | 11/9 ~ 11/10 | 보고서 · 발표 PPT · 시연 영상 (11/9 18:00 제출 · 11/10 발표) | ✅ |
 
 ```mermaid
 flowchart LR
@@ -131,14 +96,6 @@ flowchart LR
   D --> E["📣 슬랙<br/>[작업 정리]"]
 ```
 
-처음이라면: [👋 팀원 안내](https://app.notion.com/p/df8fb1d2f0db45dbab41cdd49edb5358) · [🐙 GitHub 컨벤션](https://app.notion.com/p/c86986ef9f3a4a3caedabfc16b6ff0b7)
+[🗺️ 프로젝트 지도](https://nunchi-ml.github.io/) · [👋 팀원 안내](https://app.notion.com/p/df8fb1d2f0db45dbab41cdd49edb5358) · [🐙 GitHub 컨벤션](https://app.notion.com/p/c86986ef9f3a4a3caedabfc16b6ff0b7) · [📦 최종 결과물 Release](https://github.com/Nunchi-ML/.github/releases/tag/v1.0-final)
 
-## 📅 일정
-
-| 단계 | 기간 | 끝나는 기준 | 상태 |
-|---|---|---|:---:|
-| 1️⃣ 주제 · 문제 정의 | 10/29 | 타깃과 사용 장면이 한 문장으로 | ✅ |
-| 2️⃣ 기준 고정 | 10/30 | 평가 지표 · 분할 방식 · 기능 · API 입출력 확정 | ✅ |
-| 3️⃣ 데이터 준비 · 분석 | 11/2 ~ 11/3 | 데이터 명세서 + 베이스라인 점수 | ✅ |
-| 4️⃣ 모델링 | 11/4 ~ 11/6 | 모델별 대표 모델 · 추론 묶음 | ✅ |
-| 5️⃣ 검토 · 마무리 | 11/9 ~ 11/10 | 보고서 · 발표 PPT · 시연 영상 (11/9 18:00 제출 · 11/10 발표) | ✅ |
+</details>
