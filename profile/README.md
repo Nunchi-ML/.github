@@ -64,6 +64,25 @@
   </tr>
 </table>
 
+## 🚗 눈치 드라이브
+
+운전석에 앉은 듯 대구 달구벌대로 · 신천대로를 달리며 안내를 받아 보는 시뮬레이터입니다. [직접 체험하기 →](https://nunchi-drive.vercel.app)
+
+<table>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_route.jpg" alt="🗺️ 출발 전 · 코스를 미리 판정해 눈부신 구간을 보여 줍니다"/><br/><sub>🗺️ 출발 전 · 코스를 미리 판정해 눈부신 구간을 보여 줍니다</sub></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_glare.jpg" alt="☀️ 주행 중 · 정면 눈부심을 판정하고 감속을 안내합니다"/><br/><sub>☀️ 주행 중 · 정면 눈부심을 판정하고 감속을 안내합니다</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_sign.jpg" alt="🪧 도로 전광판 · 앞 구간 눈부심을 미리 알립니다"/><br/><sub>🪧 도로 전광판 · 앞 구간 눈부심을 미리 알립니다</sub></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_camera.jpg" alt="📱 카메라 앱 · 지금 사진을 보내 바로 판정합니다"/><br/><sub>📱 카메라 앱 · 지금 사진을 보내 바로 판정합니다</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_tunnel.jpg" alt="🚇 지하차도 · 입구와 출구의 밝기 변화를 체험합니다"/><br/><sub>🚇 지하차도 · 입구와 출구의 밝기 변화를 체험합니다</sub></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_visor.jpg" alt="🕶️ 스마트 선바이저 · 해가 들어오는 칸만 가립니다"/><br/><sub>🕶️ 스마트 선바이저 · 해가 들어오는 칸만 가립니다</sub></td>
+  </tr>
+</table>
+
 ## 🗺️ 프로젝트 지도
 
 9일 일정 · 문서 6장 · 역할 · 같이 일한 방식을 한 장으로 모았어요. 그림을 누르면 「내 역할만 보기」가 되는 지도가 열려요.
