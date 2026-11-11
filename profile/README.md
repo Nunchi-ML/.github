@@ -93,7 +93,7 @@
 
 | | 저장소 | 하는 일 |
 |:---:|---|---|
-| 🧪 | [**Nunchi-ML_AI**](https://github.com/Nunchi-ML/Nunchi-ML_AI) | 데이터 정제 · 실험 · 세 모델 학습과 추론 묶음 |
+| 🧪 | [**Nunchi-ML_AI**](https://github.com/Nunchi-ML/Nunchi-ML_AI) | 데이터 정제 · 실험 · 두 예측 모델과 통합 검수의 학습 · 추론 묶음 |
 | ⚙️ | [**Nunchi-ML_BE**](https://github.com/Nunchi-ML/Nunchi-ML_BE) | 눈부심 판정 API (FastAPI · Render) · [Swagger](https://nunchi-glare-api.onrender.com/docs) |
 | 🎨 | [**Nunchi-ML_FE**](https://github.com/Nunchi-ML/Nunchi-ML_FE) | 운전 시뮬레이터 「눈치 드라이브」 (React · three.js · Vercel) · [체험하기](https://nunchi-drive.vercel.app) |
 
@@ -130,4 +130,4 @@ flowchart LR
 | 2️⃣ 기준 고정 | 10/30 | 평가 지표 · 분할 방식 · 기능 · API 입출력 확정 | ✅ |
 | 3️⃣ 데이터 준비 · 분석 | 11/2 ~ 11/3 | 데이터 명세서 + 베이스라인 점수 | ✅ |
 | 4️⃣ 모델링 | 11/4 ~ 11/6 | 모델별 대표 모델 · 추론 묶음 | ✅ |
-| 5️⃣ 검토 · 마무리 | 11/9 ~ 11/10 | 보고서 · 발표 PPT · 시연 영상 (11/9 18:00 제출 · 11/10 발표) | 🔄 |
+| 5️⃣ 검토 · 마무리 | 11/9 ~ 11/10 | 보고서 · 발표 PPT · 시연 영상 (11/9 18:00 제출 · 11/10 발표) | ✅ |
