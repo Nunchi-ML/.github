@@ -48,6 +48,17 @@
 | 🚗 **시뮬레이터** | 대구 달구벌대로 · 신천대로 3D 재현 · 출발 전 경로 판정 · 주행 중 사전 경고 · 휴대폰 카메라 즉시 판정 |
 | ⚠️ **남은 과제** | 다른 계절 · 카메라 검증 · 두 모델의 실제 입구 사진 공동 성능 · 실제 운전에서의 효과 |
 
+## 📦 최종 결과물
+
+| | 파일 |
+|:---:|---|
+| 📊 | [발표 자료 PDF](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_presentation.pdf) |
+| 📝 | [결과 보고서 PDF](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_report.pdf) |
+| 🗂️ | [프로젝트 기획서 PDF](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_proposal.pdf) |
+| 🎬 | [시연 영상 MP4](https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_demo.mp4) |
+
+<sub>모두 [Release v1.0-final](https://github.com/Nunchi-ML/.github/releases/tag/v1.0-final)에 있습니다. 공개용 발표 자료에서는 저작권이 있는 뉴스·방송 캡처와 지도 앱 화면 3장을 뺐습니다.</sub>
+
 ## 📸 발표 한눈에
 
 <table>
