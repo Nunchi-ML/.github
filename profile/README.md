@@ -48,6 +48,22 @@
 | 🚗 **시뮬레이터** | 대구 달구벌대로 · 신천대로 3D 재현 · 출발 전 경로 판정 · 주행 중 사전 경고 · 휴대폰 카메라 즉시 판정 |
 | ⚠️ **남은 과제** | 다른 계절 · 카메라 검증 · 두 모델의 실제 입구 사진 공동 성능 · 실제 운전에서의 효과 |
 
+## 📸 발표 한눈에
+
+<table>
+  <tr>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/glare_two_stage.jpg" alt="눈부심 두 단계 모델"/><br/><sub>☀️ 눈부심이 있나? → 심한가? 두 번 나눠 묻는 모델</sub></td>
+    <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/glare_result.jpg" alt="자료를 더 줬을 때 모델과 규칙 비교"/><br/><sub>☀️ 같은 자료를 더 주자 모델은 좋아지고 규칙은 나빠짐</sub></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/tunnel_structure.jpg" alt="터널 모델 구조 변경"/><br/><sub>🚇 밝기를 먼저 맞히던 구조 → 등급을 바로 가르는 구조 (F1 0.526 → 0.844)</sub></td>
+    <td><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/tunnel_warning.jpg" alt="지하차도 입구 경고"/><br/><sub>🚗 시뮬레이터 · 지하차도 입구 앞 암순응 경고</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/slides/three_step_warning.jpg" alt="경고 세 단계"/><br/><sub>🧭 출발 전 · 10~14초 전 · 그 순간, 세 번에 나눠 대비할 시간을 줍니다</sub></td>
+  </tr>
+</table>
+
 ## 🗺️ 프로젝트 지도
 
 9일 일정 · 문서 6장 · 역할 · 같이 일한 방식을 한 장으로 모았어요. 그림을 누르면 「내 역할만 보기」가 되는 지도가 열려요.
