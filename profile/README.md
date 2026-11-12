@@ -35,6 +35,9 @@
 
 ## 🚗 눈치 드라이브
 
+<img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/demo_glare.gif" width="100%" alt="시연 — 전광판 예고, 정면 눈부심 판정, 감속 안내"/>
+<sub>▶ 시연 — 전광판이 앞 구간 눈부심을 예고하고, 해가 정면에 들어오면 모델이 「지금 심한 눈부심」으로 판정해 감속을 안내합니다 · <a href="https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_demo.mp4">전체 시연 영상(1분 33초)</a></sub>
+
 <table>
   <tr>
     <td width="50%"><img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_route.jpg" alt="출발 전 경로 판정"/><br/><sub>출발 전 · 코스 미리 판정</sub></td>
