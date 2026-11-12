@@ -19,9 +19,9 @@
 해가 정면에 낮게 들어오거나 밝은 도로에서 터널로 들어갈 때, 같은 길도 순간 앞이 잘 안 보입니다.<br/>
 **눈치**는 이런 빛의 변화를 데이터로 먼저 알아채고, 그 구간에 들어가기 전에 미리 알려 주는 주행 안내입니다.
 
-<img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/sim_glare.jpg" width="100%" alt="눈치 드라이브 — 정면 눈부심 안내"/>
+<img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/demo_glare.gif" width="100%" alt="눈치 드라이브 시연 — 전광판 예고, 정면 눈부심 판정, 감속 안내"/>
 
-<p align="center"><sub>운전 시뮬레이터 「눈치 드라이브」 · 대구 달구벌대로 · 신천대로 · <a href="https://nunchi-drive.vercel.app">직접 체험하기 →</a></sub></p>
+<p align="center"><sub>운전 시뮬레이터 「눈치 드라이브」 · 대구 달구벌대로 · 신천대로 · <a href="https://nunchi-drive.vercel.app">직접 체험하기 →</a> · <a href="https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_demo.mp4">전체 시연 영상(1분 33초)</a></sub></p>
 
 ## 🧠 두 예측 모델
 
@@ -34,9 +34,6 @@
 두 결과는 통합 안내로 묶어, 시뮬레이터에서 출발 전 · 주행 중 안내로 보여 줍니다.
 
 ## 🚗 눈치 드라이브
-
-<img src="https://raw.githubusercontent.com/Nunchi-ML/.github/main/profile/assets/sim/demo_glare.gif" width="100%" alt="시연 — 전광판 예고, 정면 눈부심 판정, 감속 안내"/>
-<sub>▶ 시연 — 전광판이 앞 구간 눈부심을 예고하고, 해가 정면에 들어오면 모델이 「지금 심한 눈부심」으로 판정해 감속을 안내합니다 · <a href="https://github.com/Nunchi-ML/.github/releases/download/v1.0-final/nunchi_demo.mp4">전체 시연 영상(1분 33초)</a></sub>
 
 <table>
   <tr>
